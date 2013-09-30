@@ -1,0 +1,39 @@
+.axis line {
+  fill: none;
+  stroke: black;
+  shape-rendering: crispEdges;
+}
+
+.axis text {
+  font-family: sans-serif;
+  font-size: 11px;
+}
+
+.x.axis path,
+.y.axis path {
+  display: none;
+}
+
+
+.tooltip {
+  text-anchor: right;
+  font-family: sans-serif;
+  font-size: 11px;
+  font-weight: bold;
+  fill: black;
+}
+
+#xLabel,
+#yLabel {
+  font-family: sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+#legendText {
+  text-anchor: left;
+  font-family: sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+  fill: black;
+}

@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>Scatter Plot</title>
+                <script src="http://d3js.org/d3.v3.min.js" charset="utf-8"></script>
+		<!---script type="text/javascript" src="d3/d3.v3.js"></script--->
+		<link rel="stylesheet" href="scatterplot.css">		
+	</head>
+	<body>
+	   <form>
+	      <p>
+	         Please select X, Y (default -> Fmax, Fmax) and plot opacity (default -> 1.0):<br>
+	         <font color="red">X-Variable:</font> <select id = "xVariable", onchange="replot(this)">
+	         </select>
+	         <font color="red">Y-Variable:</font> <select id = "yVariable", onchange="replot(this)">
+	         </select>
+	         <font color="red">Plot Opacity:</font> <select id = "opacity", onchange="replot(this)">
+	         </select><br>
+	      </p>
+	   </form>
+     	<script type="text/javascript" src="scatterplot.js"></script>
+	</body>
+</html>
