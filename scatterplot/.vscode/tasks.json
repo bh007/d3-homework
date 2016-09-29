@@ -1,0 +1,8 @@
+{
+    "version": "0.1.0",
+    "command": "node",
+    "isShellCommand": false,
+    "args": [
+      "app.js"
+    ]
+}
